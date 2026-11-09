@@ -1,0 +1,6 @@
+//
+//  Adapter.swift
+//
+//
+
+import Foundation
