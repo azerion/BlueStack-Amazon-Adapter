@@ -13,7 +13,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/azerion/BlueStack-Bidding-Adapter.git", .upToNextMinor(from: "6.1.0")),
+        .package(url: "https://github.com/azerion/BlueStack-Bidding-Adapter.git", exact: "6.1.0"),
         .package(url: "https://github.com/amzn/swift-package-manager-amazon-aps", exact: "5.6.6")
     ],
     targets: [
