@@ -1,0 +1,6 @@
+framework module BlueStackAmazonPublisherServicesAdapter {
+  umbrella header "BlueStackAmazonPublisherServicesAdapter.h"
+  export *
+
+  module * { export * }
+}
