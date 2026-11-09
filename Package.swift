@@ -13,7 +13,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/azerion/BlueStackSDK.git", .upToNextMinor(from: "6.1.0")),
+        .package(url: "https://github.com/azerion/BlueStack-Bidding-Adapter.git", .upToNextMinor(from: "6.1.0")),
         .package(url: "https://github.com/amzn/swift-package-manager-amazon-aps", exact: "5.6.6")
     ],
     targets: [
@@ -22,7 +22,7 @@ let package = Package(
             dependencies: [
                 .product(name: "AmazonPublisherServicesSDK", package: "swift-package-manager-amazon-aps"),
                 .target(name: "BlueStackAmazonPublisherServicesAdapter", condition: .when(platforms: [.iOS])),
-                .product(name: "BlueStackSDK", package: "BlueStackSDK", condition: .when(platforms: [.iOS]))
+                .product(name: "BlueStackBiddingAdapter", package: "BlueStack-Bidding-Adapter", condition: .when(platforms: [.iOS]))
             ],
             path: "BlueStackAmazonPublisherServicesAdapterWrapper"
         ),

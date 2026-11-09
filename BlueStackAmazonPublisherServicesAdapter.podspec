@@ -15,7 +15,7 @@ s.documentation_url = 'https://developers.bluestack.app/ios/mediation/primairy/s
 s.vendored_frameworks = "BlueStackAmazonPublisherServicesAdapter.xcframework"
 s.ios.deployment_target = '13.0'
 
-s.dependency 'BlueStack-SDK', '>=6.1.0', '< 6.2.0'
+s.dependency 'BlueStackBiddingAdapter', '6.1.0'
 s.dependency 'AmazonPublisherServicesSDK', '5.6.6'
 
 s.pod_target_xcconfig =
