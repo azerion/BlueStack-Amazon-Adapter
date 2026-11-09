@@ -11,7 +11,7 @@ s.homepage = "https://developers.bluestack.app/"
 s.swift_version = '5'
 
 s.source = { :git => 'https://github.com/azerion/BlueStack-AmazonPublisherServices-Adapter.git', :tag => "#{s.version}" }
-s.documentation_url = 'https://developers.bluestack.app/ios/mediation/primairy/supported-networks#bidmachine'
+s.documentation_url = 'https://developers.bluestack.app/ios/mediation/primairy/supported-networks#amazon-in-app-bidding'
 s.vendored_frameworks = "BlueStackAmazonPublisherServicesAdapter.xcframework"
 s.ios.deployment_target = '13.0'
 
